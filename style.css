@@ -1,81 +1,35 @@
-* {
-  border: 1px solid red;
-}
-
+h1, 
+h2, 
+h3, 
 p {
-  color: green;
+  font-family: "Helvetica", sans-serif;
 }
 
 h1 {
-  color: maroon;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg?_gl=1*uaswg1*_gcl_aw*R0NMLjE3NDM2NDcxMzYuQ2p3S0NBand3TE9fQmhCMkVpd0F4MmUtM3l5cmYxU2tVYmdTbG1nS0g2akN6NGdDWGc4a01lNXhfM2twcFV0Sm1zOHNFajliQ3Y1WGdCb0NxUzRRQXZEX0J3RQ..*_gcl_au*NDU5NDQxODEwLjE3NDM2NDcxMzM.*_ga*NTQ1MDQ5Mjg4OS4xNzQzNjQ3MTI2*_ga_3LRZM6TM9L*MTc0Mzg4Mjg2Ni4xMS4xLjE3NDM4ODM4NzguNjAuMC4w");
+    text-align: center;
+    font-size: 100px;
+    color: khaki;
+  }
+
+div h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
 }
 
-.title {
-  color: teal;
+.brushes{
+    background-color: mediumseagreen;
 }
 
-.uppercase {
-  text-transform: uppercase;
+.frames{
+    background-color: lightcoral;
 }
 
-#article-title {
-  font-family: cursive;
+.paint{
+    background-color: skyblue;
 }
 
-a[href*='florence'] {
-  color: lightgreen;
+#starting_at_color{
+    color: blue;
 }
-
-a[href*='beijing'] {
-  color: lightblue;
-}
-
-a[href*='seoul'] {
-  color: lightpink;
-}
-
-a:hover {
-  color:darkorange;
-}
-
-.heading-background {
-  background-color: aqua;
-}
-
-#publish-time {
-  color: lightgray;
-}
-
-h5 {
-  color: yellow;
-}
-
-.author-class {
-  color: pink;
-}
-
-#author-id {
-  color: cornflowerblue;
-}
-
-h2.destination {
-  font-family: Tahoma;
-}
-
-.description h5 {
-  color: blueviolet;
-}
-
-li h4 {
-  color: gold;
-}
-
-h4 {
-  color: dodgerblue;
-}
-
-li,
-h5 {
-  font-family: monospace;
-}
-
